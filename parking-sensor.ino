@@ -58,5 +58,5 @@ void loop() {
     distance = voltage / 9.8; // 9.8v per inch
     // Serial.println(distance); //for debugging
     setColor(getColorForDistance(distance));
-    delay (100);
+    delay(100);
 }
